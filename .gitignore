@@ -1,8 +1,14 @@
 #exclude everything but
 /*
-!/app
-!/public
+
 !/.gitignore
+
+!/app
+/app/*
+
+!/public
+/public/*
+
 !/package.json
 !/README.md
 !/vite.config.js
